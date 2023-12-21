@@ -12,10 +12,10 @@ export type Review = {
 export default function CustomerReviews(props: {reviews: Review[]}) {
     const [review, setReview] = useState({review: props.reviews[0], index: 0})
 
-    const incReview = (e: React.MouseEvent<HTMLElement>) => {
+    const incReview = (_: React.MouseEvent<HTMLElement>) => {
         setReview({review: props.reviews[review.index + 1], index: review.index + 1})
     }
-    const decReview = (e: React.MouseEvent<HTMLElement>) => {
+    const decReview = (_: React.MouseEvent<HTMLElement>) => {
         setReview({review: props.reviews[review.index - 1], index: review.index - 1})
     }
     return (
