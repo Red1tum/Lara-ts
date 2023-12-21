@@ -1,0 +1,96 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 124px;
+    margin-bottom: 124px;
+
+
+}
+
+.infoColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 391px;
+    margin-left: 12%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+
+    margin-top: 124px;
+    margin-bottom: 124px;
+
+    gap: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: start;
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    text-align: left;
+    gap: 8%;
+    padding-left: 0;
+    padding-right: 0;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.header {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+}
+
+.span {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.link:link {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+
+.link:visited {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.link:hover {
+    color: var(--secondary-text-color);
+}
+
+.container {
+    padding-left: 0;
+    margin-top: 201px;
+}
+
+.logoText {
+    fill: rgba(91, 155, 243, 1)
+}
+
+.logoImage {
+    fill: white
+}
+
+.logoLabel {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

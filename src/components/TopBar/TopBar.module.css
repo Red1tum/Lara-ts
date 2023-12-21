@@ -1,0 +1,31 @@
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    height: 120px;
+}
+
+.text {
+    fill: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50%;
+    margin-left: 10vw;
+}
+
+.image {
+    fill: #458FF6;
+}
+
+.label {
+    color: #233348;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

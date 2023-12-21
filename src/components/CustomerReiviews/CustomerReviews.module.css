@@ -1,0 +1,111 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    margin-top: 266px;
+    height: 502px;
+    padding-left: 12%;
+    padding-right: 12%;
+    border-radius: 24px;
+    text-align: left;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.customerInfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 64px;
+}
+
+.review {
+    margin-left: 110px;
+    width: 55%
+}
+
+.arrowControls {
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+    gap: 90px;
+    justify-content: center;
+}
+
+.h1 {
+    color: #fff;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    z-index: 1;
+    width: 100%;
+}
+
+.name {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.position {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.reviewText {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.divider {
+    width: 56px;
+    height: 2px;
+    border: 0;
+    color: var(--divider-color);
+    margin-bottom: 26px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.image {
+    border-radius: 120px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background: transparent;
+    color: transparent;
+    border-color: transparent;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: var(--blue-color-transparent);
+}

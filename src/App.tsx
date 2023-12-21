@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import classes from './App.module.css'
+import CustomerReviews, { Review } from './components/CustomerReiviews/CustomerReviews';
+import Footer from './components/Footer/Footer';
+import HealthcareProvider from './components/HealthcareProvider/HealthcareProvider';
+import LatestArticle from './components/LatestArticles/LatestArticle';
+import MobileApp from './components/MobileApp/MobileApp';
+import OurServices from './components/OurServices/OurServices'
+import TopBar from './components/TopBar/TopBar'
+import VirtaulHealthcare from './components/VirtualHealthcare/VirtualHealthcare'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const reviews: Review[] = [
+    {name: "Edward Newgate", position: "Founder Circle", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+    {name: "Vasiliy Newgate", position: "Founder Rectange", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+    {name: "Ivan Newgate", position: "Founder Square", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+    {name: "Andrew Newgate", position: "Founder Triangle", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+  ]
   return (
     <>
+    <div className={classes.container}>
+      <header>
+        <TopBar/>
+        <VirtaulHealthcare/>
+      </header>
+      <OurServices/>
+      <HealthcareProvider />
+      <MobileApp />
+      <CustomerReviews reviews={reviews}/>
+      <LatestArticle />
+      </div>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Footer />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
 export default App

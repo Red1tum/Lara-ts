@@ -1,0 +1,17 @@
+.logoRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+.logoText {
+    vertical-align: baseline;
+    color: #233348;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
