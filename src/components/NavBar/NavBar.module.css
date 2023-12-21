@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: end;
+    flex-grow: 0.9;
+    gap: 40px;
+}
+
+
+.navText {
+    color: #fff;
+}
+
+a:link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}

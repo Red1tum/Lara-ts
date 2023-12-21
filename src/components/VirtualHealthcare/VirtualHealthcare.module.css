@@ -1,0 +1,53 @@
+.headerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headerColumn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    margin-top: 106px;
+    gap: 25px;
+}
+
+.largeHeader {
+    color: var(--primary-text-color);
+    width: 427px;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.subheader {
+    color: var(--secondary-text-color);
+    width: 427px;
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    background: #458FF6;
+}
+
+.image {
+    width: 693px;
+    height: 598px;
+}
+
+.test {
+    display: flex;
+    justify-content: end;
+    flex-grow: 0.7;
+}
