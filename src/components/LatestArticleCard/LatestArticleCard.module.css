@@ -44,6 +44,12 @@
     gap: 12px;
 }
 
+.more {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 a:link {
     color: red;
 }

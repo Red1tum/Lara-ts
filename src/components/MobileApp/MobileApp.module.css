@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: left;
     margin-right: 127px;
+    align-items: center;
 }
 
 .row {

@@ -27,7 +27,7 @@ export default function OurServices() {
             <div className={classes.list}>
             {
                 cards.map(card => (
-                    <Card title={card.title} subtitle={card.subtitle} logo={card.logo}/>
+                    <Card key={card.title} title={card.title} subtitle={card.subtitle} logo={card.logo}/>
                 ))
             }
             </div>

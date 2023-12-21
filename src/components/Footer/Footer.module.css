@@ -46,12 +46,33 @@
     color: #fff;
 }
 
-.link {
+.span {
     color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 38px;
+}
+
+.link:link {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+
+.link:visited {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.link:hover {
+    color: var(--secondary-text-color);
 }
 
 .container {

@@ -1,5 +1,5 @@
 import classes from './App.module.css'
-import CustomerReviews from './components/CustomerReiviews/CustomerReviews';
+import CustomerReviews, { Review } from './components/CustomerReiviews/CustomerReviews';
 import Footer from './components/Footer/Footer';
 import HealthcareProvider from './components/HealthcareProvider/HealthcareProvider';
 import LatestArticle from './components/LatestArticles/LatestArticle';
@@ -9,6 +9,12 @@ import TopBar from './components/TopBar/TopBar'
 import VirtaulHealthcare from './components/VirtualHealthcare/VirtualHealthcare'
 
 function App() {
+  const reviews: Review[] = [
+    {name: "Edward Newgate", position: "Founder Circle", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+    {name: "Vasiliy Newgate", position: "Founder Rectange", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+    {name: "Ivan Newgate", position: "Founder Square", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+    {name: "Andrew Newgate", position: "Founder Triangle", review: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”'},
+  ]
   return (
     <>
     <div className={classes.container}>
@@ -19,7 +25,7 @@ function App() {
       <OurServices/>
       <HealthcareProvider />
       <MobileApp />
-      <CustomerReviews />
+      <CustomerReviews reviews={reviews}/>
       <LatestArticle />
       </div>
       <div>

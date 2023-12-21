@@ -37,8 +37,16 @@
     margin-top: 20px;
     border-radius: 55px;
     width: 200px;
-    height: 56px;
-    background: #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    background: var(--button-color);
+    border: 1.4px solid var(--button-color);
+}
+
+.button:hover {
+    color: rgb(255, 255, 255, 0.4)
 }
 
 .image {
@@ -46,7 +54,7 @@
     height: 598px;
 }
 
-.test {
+.imgBox {
     display: flex;
     justify-content: end;
     flex-grow: 0.7;

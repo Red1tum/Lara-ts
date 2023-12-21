@@ -10,7 +10,7 @@ export default function VirtaulHealthcare() {
                 <span className={classes.subheader}>Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone</span>
                 <button className={classes.button}>Consult today</button>
             </div>
-            <div className={classes.test}>
+            <div className={classes.imgBox}>
                 <img src={header} className={classes.image}/>
             </div>
         </div>

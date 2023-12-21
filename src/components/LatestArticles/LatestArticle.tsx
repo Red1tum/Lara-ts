@@ -36,7 +36,7 @@ export default function LatestArticle() {
             <div className={classes.grid}>
             {
                 state.map(item => (
-                    <LatestArticleCard image={item.image} title={item.title} subtitle={item.subtitle} />
+                    <LatestArticleCard key={item.title} image={item.image} title={item.title} subtitle={item.subtitle} />
                 ))
             }
             </div>

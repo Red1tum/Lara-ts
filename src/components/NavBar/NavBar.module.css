@@ -54,3 +54,11 @@ this is a mess
     font-weight: 700;
     line-height: normal;
 }
+
+.active:hover {
+    color: var(--secondary-text-color);
+}
+
+.a:hover {
+    color: var(--secondary-text-color);
+}

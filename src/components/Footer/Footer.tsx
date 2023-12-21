@@ -7,29 +7,29 @@ export default function Footer() {
         <div className={classes.row}>
             <div className={classes.infoColumn}>
                 <Logo textStyles={classes.logoText} imageStyles={classes.logoImage} labelStyles={classes.logoLabel} />
-                <span className={classes.link}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</span>
-                <span className={classes.link}>©HealthCare PTY LTD 2023. All rights reserved</span>
+                <a className={classes.span}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</a>
+                <a className={classes.span}>©HealthCare PTY LTD 2023. All rights reserved</a>
             </div>
             <div className={classes.column}>
                 <h3 className={classes.header}>Company</h3>
-                <span className={classes.link}>About</span>
-                <span className={classes.link}>Testimonials</span>
-                <span className={classes.link}>Find a doctor</span>
-                <span className={classes.link}>Apps</span>
+                <a href="/" className={classes.link}>About</a>
+                <a href="/" className={classes.link}>Testimonials</a>
+                <a href="/" className={classes.link}>Find a doctor</a>
+                <a href="/" className={classes.link}>Apps</a>
             </div>
             <div className={classes.column}>
                 <h3 className={classes.header}>Region</h3>
-                <span className={classes.link}>Indonesia</span>
-                <span className={classes.link}>Singapore</span>
-                <span className={classes.link}>Hongkong</span>
-                <span className={classes.link}>Canada</span>
+                <a href="/" className={classes.link}>Indonesia</a>
+                <a href="/" className={classes.link}>Singapore</a>
+                <a href="/" className={classes.link}>Hongkong</a>
+                <a href="/" className={classes.link}>Canada</a>
             </div>
             <div className={classes.column}>
                 <h3 className={classes.header}>Help</h3>
-                <span className={classes.link}>Help center</span>
-                <span className={classes.link}>Contact support</span>
-                <span className={classes.link}>Instructions</span>
-                <span className={classes.link}>How it works</span>
+                <a href="/" className={classes.link}>Help center</a>
+                <a href="/" className={classes.link}>Contact support</a>
+                <a href="/" className={classes.link}>Instructions</a>
+                <a href="/" className={classes.link}>How it works</a>
             </div>
         </div>
         </div>
