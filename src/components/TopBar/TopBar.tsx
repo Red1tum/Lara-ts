@@ -8,7 +8,9 @@ export default function TopBar() {
   return (
     <>
         <div className={classes.topbar}>
+          <div className={classes.logo}>
             <Logo textStyles={classes.text} imageStyles={classes.image} labelStyles={classes.label}/>
+          </div>
             <NavBar n={n}/>
         </div>
     </>

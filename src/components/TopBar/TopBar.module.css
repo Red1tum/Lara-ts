@@ -10,6 +10,13 @@
     fill: white;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50%;
+    margin-left: 10vw;
+}
+
 .image {
     fill: #458FF6;
 }

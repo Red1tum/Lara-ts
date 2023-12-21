@@ -11,6 +11,7 @@
     justify-content: left;
     margin-top: 106px;
     gap: 25px;
+    margin-right: 8%;
 }
 
 .largeHeader {
@@ -46,7 +47,7 @@
 }
 
 .button:hover {
-    color: rgb(255, 255, 255, 0.4)
+    color: var(--secondary-text-color);
 }
 
 .image {
@@ -57,5 +58,5 @@
 .imgBox {
     display: flex;
     justify-content: end;
-    flex-grow: 0.7;
+
 }
