@@ -5,3 +5,20 @@
 
     height: 120px;
 }
+
+.text {
+    fill: white;
+}
+
+.image {
+    fill: #458FF6;
+}
+
+.label {
+    color: #233348;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

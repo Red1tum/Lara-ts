@@ -37,7 +37,24 @@
     border-top-right-radius: 20px 20px;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    gap: 12px;
+}
+
 a:link {
     color: red;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--button-color)
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--button-color)
 }
 

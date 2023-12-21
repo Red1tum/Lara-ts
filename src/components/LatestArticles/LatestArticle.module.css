@@ -6,14 +6,6 @@
     position: relative;
 }
 
-.divider {
-    width: 56px;
-    height: 2px;
-    background-color: var(--divider-color);
-    margin-bottom: 26px;
-    z-index: 1;
-}
-
 .h1 {
     color: var(--primary-text-color);
     font-size: 36px;
@@ -24,8 +16,8 @@
     text-align: center;
     z-index: 1;
     margin-top: 192px;
+    width: 100%;
 }
-
 
 .grid {
     display: grid;
@@ -36,19 +28,4 @@
 
 .buttonContainer {
     margin-top: 69px;
-}
-
-
-.button{
-    border-radius: 55px;
-    background: transparent;
-    width: 200px;
-    padding: 1px 40px;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    color: var(--button-color);
-    border: 1.4px solid var(--button-color);
 }

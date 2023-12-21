@@ -7,6 +7,8 @@ import img3 from '../../assets/img3.svg'
 import img4 from '../../assets/img4.svg'
 import img5 from '../../assets/img5.svg'
 import img6 from '../../assets/img6.svg'
+import PrimaryButton from '../PrimaryButton/PrimaryButton';
+import Divider from '../Divider/Diveder';
 
 export default function OurServices() {
     let cards: CardProps[] = [
@@ -20,7 +22,7 @@ export default function OurServices() {
     return (
         <div className={classes.servicesColumn}>
             <h1 className={classes.h1}>Our Services</h1>
-            <hr className={classes.divider}/>
+            <Divider/>
             <h2 className={classes.h2}>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</h2>
             <div className={classes.list}>
             {
@@ -30,9 +32,7 @@ export default function OurServices() {
             }
             </div>
             <div className={classes.buttonContainer}>
-                <button className={classes.primaryOutlinedButton}>
-                    Learn more
-                </button>
+                <PrimaryButton text="Learn more"/>
             </div>
         </div>
     );

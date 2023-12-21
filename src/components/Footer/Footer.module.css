@@ -58,3 +58,18 @@
     padding-left: 0;
     margin-top: 201px;
 }
+
+.logoText {
+    fill: rgba(91, 155, 243, 1)
+}
+
+.logoImage {
+    fill: white
+}
+
+.logoLabel {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

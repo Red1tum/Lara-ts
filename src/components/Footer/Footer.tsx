@@ -6,7 +6,7 @@ export default function Footer() {
         <div className={classes.container}>
         <div className={classes.row}>
             <div className={classes.infoColumn}>
-                <Logo />
+                <Logo textStyles={classes.logoText} imageStyles={classes.logoImage} labelStyles={classes.logoLabel} />
                 <span className={classes.link}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</span>
                 <span className={classes.link}>©HealthCare PTY LTD 2023. All rights reserved</span>
             </div>
